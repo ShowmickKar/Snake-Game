@@ -16,12 +16,9 @@ clock = pygame.time.Clock()
 
 def draw(window, grid, snake, food):
     window.fill((0, 0, 0))
-    for part in snake.body:
-        try:
-            grid[part[0]][part[1]].color = snake.color
-            grid[part[0]][part[1]].draw(window)
-        except Exception as e:
-            pass
+    # for row in grid:
+    #     for cell in row:
+    #         cell.draw(window)
     snake.draw(window)
     food.draw(window)
     SCORE = myfont.render(f"SCORE: {snake.score}", False, (255, 255, 255))
@@ -80,7 +77,7 @@ def game(grid, food, snake):
         snake.move(grid)
         if snake.dead():
             main()
-        clock.tick(14)
+        clock.tick(20)
     pygame.quit()
 
 
