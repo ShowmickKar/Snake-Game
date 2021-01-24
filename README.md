@@ -1,4 +1,4 @@
-# A Simple Snake game made in python and Pygame
+# A Simple Snake game made with python and Pygame
 
 I made a snake game in python and used algorithmic techniques to efficiently control the snake's movement and resize/grow its body.
 
