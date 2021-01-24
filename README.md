@@ -12,4 +12,6 @@ Screenshot:
 
 <img src="screenshot.jpg" alt="drawing" width="300"/>
 
-<!-- ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif) -->
+I hope you like it!
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
