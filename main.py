@@ -77,7 +77,7 @@ def game(grid, food, snake):
         snake.move(grid)
         if snake.dead():
             main()
-        clock.tick(20)
+        clock.tick(18)
     pygame.quit()
 
 
