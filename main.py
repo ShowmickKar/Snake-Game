@@ -44,6 +44,7 @@ def game(grid, food, snake):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
+                pygame.quit()
 
         navigation_key = pygame.key.get_pressed()
         if navigation_key[pygame.K_UP] and snake.getDirection() != [0, 1]:
